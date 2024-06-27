@@ -9,3 +9,5 @@
 安装pytorch  根据自己的cuda版本安装  conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=12.1 -c pytorch -c nvidia
 
 在github上下载yolov8  进入该文件夹后用pip指令安装   pip install -e .
+
+安装包  pip install PyQt5 opencv-python pygame
