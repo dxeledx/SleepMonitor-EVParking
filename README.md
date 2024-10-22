@@ -1,3 +1,7 @@
+**1、配置环境**
+
+视频教程：https://www.bilibili.com/video/BV1nm81eYEkZ/
+
 安装Anaconda  
 
 创建虚拟环境  conda create -n yolov8 python==3.12  #yolov8为虚拟环境的名称 制定python版本为3.12
@@ -11,3 +15,12 @@
 在github上下载yolov8  进入该文件夹后用pip指令安装   pip install -e .
 
 安装包  pip install PyQt5 opencv-python pygame
+
+
+**2、运行程序**
+
+将项目用PyCharm打开后，运行MainProgram.py即可
+
+**文件说明**
+
+/models 为训练好的电瓶车模型 vehicle.pt，和睡觉姿势模型 sleeping.pt
